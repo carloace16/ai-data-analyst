@@ -18,6 +18,7 @@ try:
     
     # --- THIS IS THE FINAL FIX ---
     # Using the correct model name from your key's available list
+    # Got a problem here many times because of gemini version
     model = genai.GenerativeModel('models/gemini-pro-latest') 
     # --- END OF FIX ---
     
